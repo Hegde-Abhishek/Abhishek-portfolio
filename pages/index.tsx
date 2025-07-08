@@ -1,21 +1,23 @@
 import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Projects from '@/components/Projects';
-// import Skills from '@/components/Skills';
-// import Stats from '@/components/Stats';
-// import MobileUX from '@/components/MobileUX';
-// import Contact from '@/components/Contact';
+import Skills from '@/components/Skills';
+import Stats from '@/components/Stats';
+import MobileUX from '@/components/MobileUX';
+import Contact from '@/components/Contact';
+import Navbar from '@/components/Navbar';
 
 export default function Home() {
   return (
     <main className="bg-white dark:bg-black text-black dark:text-white transition-colors">
+      <Navbar />
       <Hero />
       <About />
       <Projects />
-      {/* <Skills />
+      <Skills />
       <Stats />
       <MobileUX />
-      <Contact /> */}
+      <Contact />
     </main>
   );
 }
