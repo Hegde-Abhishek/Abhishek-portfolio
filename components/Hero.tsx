@@ -1,5 +1,6 @@
 // components/Hero.tsx
 import { motion } from 'framer-motion';
+import ResumeModal from './ResumeModal';
 
 export default function Hero() {
   return (
@@ -34,6 +35,7 @@ export default function Hero() {
         <a href="/resume.pdf" target="_blank" className="border border-white px-5 py-2 rounded-full hover:bg-white hover:text-black transition">
           Download Resume
         </a>
+        <ResumeModal />
         <a href="#contact" className="px-5 py-2 rounded-full bg-gray-700 hover:bg-gray-600 transition">
           Let’s Connect
         </a>
