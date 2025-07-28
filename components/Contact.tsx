@@ -75,10 +75,10 @@ const Contact = () => {
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.4 }}
       >
-        <a href="mailto:abhishek@example.com" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
+        <a href="mailto:hegdeabhishek07@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
           <FaEnvelope size={32} />
         </a>
-        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
+        <a href="https://www.linkedin.com/in/hegde-abhishek/" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
           <FaLinkedin size={32} />
         </a>
         <a href="https://github.com/Hegde-Abhishek" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">

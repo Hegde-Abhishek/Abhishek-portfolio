@@ -34,24 +34,24 @@ import UXCard from './UXCard';
 
 const uxProjects = [
   {
-    title: 'Real-Time Trading UI',
-    summary: 'Websocket + data-driven design',
-    details: 'Crafted real-time charts and trade execution panel with UX-first approach.',
-    emoji: '📊',
+    title: 'UI/UX Design for Food Ordering App',
+    summary: 'Figma, Wireframes + interactive prototyping',
+    details: 'Designed a responsive food-ordering app in Figma after conducting surveys, interviews, and SWOT analysis; developed user personas, flows, and wireframes for intuitive mobile UX.',
+    emoji: '🥗',
     link: 'https://yourfigma.link/trading-ui'
   },
   {
-    title: 'Admin Panel Redesign',
-    summary: 'Accessibility + animations',
-    details: 'Modernized legacy system with smooth transitions and better hierarchy.',
-    emoji: '🛠️',
+    title: 'Child Adoption App',
+    summary: 'Figma, Interactive Prototype + logo design',
+    details: 'Designed a high-fidelity, interaction-rich prototype in Figma for a child adoption platform, focused on clarity, accessibility, crafted user flows to simplify discovery, eligibility checks, and application steps.',
+    emoji: '🧒',
     link: 'https://yourfigma.link/admin-redesign'
   },
   {
-    title: 'Mobile Booking Flow',
-    summary: 'Reduced drop-offs',
-    details: 'Streamlined mobile user journey for faster conversions.',
-    emoji: '📱'
+    title: 'Nike App Redesign - UX Case Study',
+    summary: 'Moqups, wireframes, prototypes & UX reserach',
+    details: 'Conducted a UX audit and Redesigned Nike’s app using Moqups, mapped user flows, built wireframes, and iterated prototypes based on usability feedback to streamline browsing and checkout',
+    emoji: '👟'
     // No link here – optional
   }
 ];

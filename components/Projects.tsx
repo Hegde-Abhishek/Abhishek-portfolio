@@ -3,29 +3,41 @@ import { motion } from 'framer-motion';
 
 const projects = [
   {
+    title: 'Personal Voice AI',
+    desc: 'An interactive, full-duplex voice assistant that captures, transcribes, and processes user speech using Whisper and GPT-3.5',
+    tech: 'OpenaiAPI, Whisper, Web-speech API, React+Vite, Nodejs',
+    github: 'https://github.com/Hegde-Abhishek/tiffin-tribe',
+  },
+  {
+    title: 'AI Career Advisor',
+    desc: 'A personalized AI powered career advisor using collaborative filtering and Python (Flask) for backend orchestration and React for frontend delivery; integrated OpenAI API with rate-limit handling.',
+    tech: 'React, Node.js, Flask, Python, OpenAI API, MongoDB',
+    github: 'https://github.com/Hegde-Abhishek/ai-career-advisor',
+  },
+  {
     title: 'Tiffin Tribe',
     desc: 'Food ordering app with React, Node.js, JWT, and React Native.',
     tech: 'React, Node.js, PostgreSQL',
     github: 'https://github.com/Hegde-Abhishek/tiffin-tribe',
   },
-  {
-    title: 'AI Career Advisor',
-    desc: 'GPT-powered job recommender using Flask and OpenAI API.',
-    tech: 'React, Flask, MongoDB, OpenAI',
-    github: 'https://github.com/Hegde-Abhishek/ai-career-advisor',
+   {
+    title: 'Microservices Architecture (E-Commerce Platform)',
+    desc: 'Architected a horizontally scalable e-commerce system using Node.js, microservices, Docker, and Kubernetes. Managed stateful components with PostgreSQL, caching with Redis & deployed with CI/CD pipelines',
+    tech: ' Docker, Node.js, Kubernetes, PostgreSQL  ',
+    github: 'https://github.com/Hegde-Abhishek/tiffin-tribe',
   },
-  {
-    title: 'Real-Time Dashboard',
-    desc: 'WebSocket-based OHLC chart system with Redis and Postgres.',
-    tech: 'Next.js, WebSocket, Redis',
-    github: 'https://github.com/Hegde-Abhishek/bar-manager',
-  },
-  {
-    title: 'Notification System',
-    desc: 'Socket.io real-time alerts with TTL, Auth0, and inbox view.',
-    tech: 'React, Node.js, Auth0',
-    github: 'https://github.com/Hegde-Abhishek/notification-system',
-  },
+  // {
+  //   title: 'Real-Time Dashboard',
+  //   desc: 'WebSocket-based OHLC chart system with Redis and Postgres.',
+  //   tech: 'Next.js, WebSocket, Redis',
+  //   github: 'https://github.com/Hegde-Abhishek/bar-manager',
+  // },
+  // {
+  //   title: 'Notification System',
+  //   desc: 'Socket.io real-time alerts with TTL, Auth0, and inbox view.',
+  //   tech: 'React, Node.js, Auth0',
+  //   github: 'https://github.com/Hegde-Abhishek/notification-system',
+  // },
 ];
 
 export default function Projects() {
