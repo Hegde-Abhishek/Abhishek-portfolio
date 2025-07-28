@@ -10,10 +10,10 @@ import MyJourney from '@/components/MyJourney';
 
 export default function Home() {
   return (
-    <main className="bg-white dark:bg-black text-black dark:text-white transition-colors">
-      <Navbar />
+    <main className="text-black dark:text-white transition-colors">
+      {/* <Navbar /> */}
       <Hero />
-      <About />
+      {/* <About /> */}
       <MyJourney />
       <Projects />
       <Skills />

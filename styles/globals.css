@@ -1,4 +1,4 @@
-@import "tailwindcss";
+/* @import "tailwindcss";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -47,4 +47,146 @@ html {
 }
 .rotateY-180 {
   transform: rotateY(180deg);
+} */
+
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply transition-colors duration-300 ease-in-out;
+  /* Add this for good measure, though the :root setting below is primary */
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background: #000000; /* Force black background in light mode */
+  --foreground: #ededed; /* Changed foreground for dark mode consistency */
+}
+
+/* This block is for dark mode preference */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000000; /* Ensure black background in dark mode too */
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background); /* This will now be black */
+  color: var(--foreground);
+  font-family: 'Arial, Helvetica', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #000000; /* Also ensure html background is black */
+}
+
+.perspective {
+  perspective: 1000px;
+}
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+.backface-hidden {
+  backface-visibility: hidden;
+}
+.rotateY-180 {
+  transform: rotateY(180deg);
+}
+
+.animated-blob {
+  position: absolute;
+  border-radius: 50%; /* Make them circular */
+  filter: blur(80px); /* Apply a strong blur for glowing effect */
+  opacity: 0.6; /* Adjust overall opacity */
+  animation: blob-animation linear infinite alternate;
+}
+
+/* Define colors and initial positions for each blob */
+.blob-1 {
+  background-color: #14b8a6; /* Teal */
+  width: 250px;
+  height: 250px;
+  top: 10%;
+  left: 15%;
+  animation-duration: 15s;
+}
+
+.blob-2 {
+  background-color: #0d9488; /* Darker Teal */
+  width: 300px;
+  height: 300px;
+  bottom: 20%;
+  right: 10%;
+  animation-duration: 18s;
+}
+
+.blob-3 {
+  background-color: #06b6d4; /* Cyan */
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  left: 5%;
+  animation-duration: 13s;
+  animation-delay: 2s; /* Stagger animations */
+}
+
+.blob-4 {
+  background-color: #2dd4bf; /* Lighter Teal */
+  width: 280px;
+  height: 280px;
+  top: 5%;
+  right: 30%;
+  animation-duration: 20s;
+  animation-delay: 4s;
+}
+
+.blob-5 {
+  background-color: #38bdf8; /* Light Blue */
+  width: 220px;
+  height: 220px;
+  bottom: 5%;
+  left: 40%;
+  animation-duration: 16s;
+  animation-delay: 1s;
+}
+
+/* Define the animation keyframes */
+@keyframes blob-animation {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0.6;
+  }
+  25% {
+    transform: translate(20px, -30px) scale(1.1) rotate(5deg);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translate(-10px, 40px) scale(0.9) rotate(-10deg);
+    opacity: 0.5;
+  }
+  75% {
+    transform: translate(30px, -15px) scale(1.05) rotate(3deg);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0.6;
+  }
+}
+
+/* Adjust blur for different screen sizes if desired, or keep fixed */
+@media (max-width: 768px) {
+  .animated-blob {
+    filter: blur(50px); /* Slightly less blur on smaller screens */
+  }
+  .blob-1, .blob-2, .blob-3, .blob-4, .blob-5 {
+    width: 150px;
+    height: 150px;
+  }
 }
