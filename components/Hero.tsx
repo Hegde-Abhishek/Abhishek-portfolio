@@ -71,7 +71,7 @@ export default function Hero() {
         transition={{ duration: 0.8 }}
         className="relative text-4xl md:text-6xl font-bold z-10"
       >
-        Hi, I'm <span className="text-teal-400">Abhishek Hegde</span> 👋
+        Hi, I&apos;m <span className="text-teal-400">Abhishek Hegde</span> 👋
       </motion.h1>
 
       <motion.p
