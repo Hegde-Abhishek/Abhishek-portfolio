@@ -3,21 +3,21 @@ import { motion } from 'framer-motion';
 
 const timeline = [
   {
-    year: '2019',
-    title: 'Frontend Dev @ Novel Office',
-    detail: 'Boosted SEO and traffic by 80% with responsive web redesigns.',
+    year: '2024–25',
+    title: 'Software Engineer @ Sókn Engineering',
+    detail: 'Built OHLC dashboards, AI bots, and live alert systems.',
     align: 'left',
   },
   {
     year: '2020–22',
-    title: 'Full-stack Dev @ Legato',
+    title: 'Full-stack Dev @ Legato Health Technologies',
     detail: 'Built 10+ SPAs with React, Angular, Node.js, improving UX + performance.',
     align: 'right',
   },
   {
-    year: '2024–25',
-    title: 'Software Engineer @ Sókn Engineering',
-    detail: 'Built OHLC dashboards, AI bots, and live alert systems.',
+    year: '2019-2020',
+    title: 'Frontend Dev | Software Engineer @ Novel Office',
+    detail: 'Boosted SEO and traffic by 80% with responsive web redesigns.',
     align: 'left',
   },
 ];
@@ -37,7 +37,7 @@ export default function About() {
           >
             <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md w-[85%]">
               <h3 className="font-semibold text-lg mb-1">{item.year} — {item.title}</h3>
-              <p className="text-gray-600 dark:text-gray-300">{item.detail}</p>
+              {/* <p className="text-gray-600 dark:text-gray-300">{item.detail}</p> */}
             </div>
           </motion.div>
         ))}

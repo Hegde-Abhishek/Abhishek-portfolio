@@ -14,7 +14,7 @@ export default function Navbar() {
           </a>
         ))}
       </nav>
-      <div className="flex items-center">
+      <div className="flex items-center pr-4 sm:pr-6">
         <ThemeToggle />
       </div>
     </header>
