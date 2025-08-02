@@ -98,7 +98,9 @@ function CounterStat({ label, end, suffix }: { label: string; end: number; suffi
   const count = useCounter(end, 1000, isVisible);
 
   return (
-    <div ref={ref} className="text-4xl font-extrabold transition-opacity duration-500">
+    <div ref={ref} className={`text-4xl font-extrabold transform transition-transform duration-500 ${
+    isVisible ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'
+  }`}>
       {count.toLocaleString()}{suffix || ''}
       <p className="text-base mt-2 font-medium text-gray-400">{label}</p>
     </div>

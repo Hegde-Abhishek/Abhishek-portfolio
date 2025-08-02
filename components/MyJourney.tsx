@@ -96,9 +96,11 @@ const journeyItems = [
     title: 'Software Developer @ Sókn Engineering',
     description: 'Built full-stack systems using React, Node.js, GraphQL, Websockets, Redis, and PostgreSQL -- shipping real-time dashboards and chatbot flows with <30ms latency.',
     bullets: [
-      'Built scalable real-time charts using WebSocket.',
-      'Handled event-driven architecture w/ Redis + Pub/Sub.',
-      'Developed trade execution tools with UX-first mindset.'
+      'Sub 30ms latency for real time api 🔌, 42% ⬆️ Query Efficiency',
+      'Core Stack 💻: React, Node.js, JavaScript, GraphQL, Redis, Postgres, Python.',
+      'DevOps & Security: Docker, Kubernetes, Auth0 (OAuth, JWT), Cloudfare, CI/CD.',
+      'End to end ownership of services, 0 to 1 builder'
+
     ]
   },
   {
@@ -106,9 +108,12 @@ const journeyItems = [
     title: `Master's in Computer Information Systems @ Northeastern University, Boston`,
     description: 'Graduated with distinction (3.8 GPA) in May 2024 gaining skills in full-stack engineering, data sturcture & algorithms, and software architecture, through real-world projects and core engineering & SDLC principles.',
     bullets: [
-      'Built scalable real-time charts using WebSocket.',
-      'Handled event-driven architecture w/ Redis + Pub/Sub.',
-      'Developed trade execution tools with UX-first mindset.'
+      'Application Engineering and development',
+      'Program Structures and Algorithms',
+      'Web design and user experience Engr',
+      'User experience (UX) design and testing',
+      'Object oriented design and programming',
+      'Research Methods in AI'
     ]
   },
   {
@@ -116,9 +121,10 @@ const journeyItems = [
     title: 'Software Engineer @ Legato Health Technologies',
     description: 'Led frontend revamps and API integration and enhancement using React, Angular, TypeScript, Express and Node.js -- boosting traffic and performance across 10+ healthtech projects.',
     bullets: [
-      'Revamped the admin panel with React + animations.',
-      'Improved Lighthouse SEO scores by 40%.',
-      'Redesigned forms for WCAG 2.1 accessibility compliance.'
+      '65% surge in Website Traffic Growth 📈| 10+ delivered projects',
+      'Architected responsive, user-centric UIs - advanced JavaScript frameworks.',
+      'Core Stack 💻: MERN Stack, Angular, JavaScript (ES6), TypeScript, Redux, REST APIs.',
+      'Best agile and scrum practices including standups, grooming, retrospectives, and sprint reviews'
     ]
   },
   {
@@ -126,8 +132,10 @@ const journeyItems = [
     title: 'Full-stack Dev @ Novel Office',
     description: 'Built responsive, high-converting websites and optimized backend & SQL queries to enhance performance, SEO, and user engagement -- leading to 2x growth in leads.',
     bullets: [
-      'Integrated role-based dashboards using Node.js + MongoDB.',
-      'Reduced user drop-off with micro-UX changes.'
+      '80% Rise in website traffic | 70% Site speed boost ⬆️',
+      'Maintained and optimized SQL databases, and refactored codebases',
+      'Core Stack 💻: Front-end technologies, PHP, UI/UX, SQL.',
+      'Performance: Lighthouse, code-splitting, optimized asset loading.'
     ]
   },
   {
@@ -135,8 +143,8 @@ const journeyItems = [
     title: 'Bachelor of Engineering',
     description: 'Started with ML tools and microservice design.',
     bullets: [
-      'Developed Olympic medal prediction model in Python.',
-      'Built campus events dashboard with SQL views.'
+      'Smart Control Electrical Appliances using IoT and Cloud as final year project',
+      'Gave a technical seminal on Natural Language Processing(NLP) at national level symposium'
     ]
   }
 ];
